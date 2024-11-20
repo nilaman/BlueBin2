@@ -1,0 +1,21 @@
+body{
+    background-image: url(/assets/497fa6f1644c4309b3d46b129ba9998b.webp)
+}
+
+.imageGrid{
+    width: 100%;
+    display: grid;
+    grid-template-columns:  repeat(12, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    height: 100vh;
+}
+.logogrid{
+    grid-column: 7;
+    grid-row: 1;
+    
+}
+.bluebinlogo{
+    width: 500px;
+    height: 400px;
+
+}
