@@ -1,20 +1,20 @@
-@font-face {
-    font-family: 'Courier Prime';
-    src: url(/fonts/Courier_Prime/CourierPrime-Regular.ttf)
-}
-
 .font{
-    font-family: 'Courier Prime'
+    font-family: 'Courier Prime-Bold';
 }
 
 body{
     background-image: url(/assets/497fa6f1644c4309b3d46b129ba9998b.webp);
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    margin: 0;
+    text-align: center;
 }
 
 input {
     width: 300px;
     padding: 10px;
-    font-size: 16px;
+    font-size: 20px;
     border: transparent;
     border-radius: 5px;
     background-color: transparent;
@@ -28,6 +28,42 @@ hr {
     height: 2px;
     background: #000000;
     opacity: 80%;
+}
+
+.logo{
+    width: fit-content;
+    height: fit-content;
+}
+
+@font-face {
+    font-family: 'Courier Prime';
+    src: url(/fonts/Courier_Prime/CourierPrime-Regular.ttf);
+}
+@font-face{
+    src: url(/fonts/Courier_Prime/CourierPrime-Bold.ttf);
+    font-family: 'Courier Prime-Bold'
+}
+
+#navtext{
+    font-size: 30px; 
+    text-wrap: nowrap;
+    font-family: 'Courier Prime'
+}
+
+input{
+    font-family: 'Courier Prime';
+    justify-self: start;
+    display: flex;
+}
+
+.bold{
+    font-family: 'Courier Prime-Bold';
+    text-decoration: underline;
+
+}
+.lightbold{
+    font-family: 'Courier Prime';
+    font-size: 16px;
 }
 
 
