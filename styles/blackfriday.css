@@ -16,5 +16,22 @@ body{
     font-size: 30px; 
     text-wrap: nowrap;
     font-family: 'Courier Prime'
+}
 
+.btnborder{
+    border: none;
+}
+
+#dropdownstyle{
+    font-size: 30px;
+    background-color: whitesmoke; 
+    border: none; 
+}
+
+a{
+    font-family: 'Courier Prime'
+}
+
+h1{
+    font-family: 'Courier Prime'
 }
