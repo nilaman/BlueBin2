@@ -17,11 +17,11 @@ body{
     src: url(/fonts/Courier_Prime/CourierPrime-Regular.ttf)
 }
 
-.pagegrid{
+/* .pagegrid{
     min-height: 100%;
     display: grid;
     grid-template-columns: 0.5fr 0.5fr 1fr 1fr 1fr 1fr 1fr 1fr;
-}
+} */
 
 
 #navtext{
