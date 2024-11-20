@@ -10,3 +10,25 @@
 body{
     background-image: url(/assets/497fa6f1644c4309b3d46b129ba9998b.webp);
 }
+
+input {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: transparent;
+    border-radius: 5px;
+    background-color: transparent;
+    color: black; 
+}
+
+input::placeholder {
+    color: #000000; 
+}
+hr {
+    height: 2px;
+    background: #000000;
+    opacity: 80%;
+}
+
+
+
