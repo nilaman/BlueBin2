@@ -1,3 +1,14 @@
 body{
     background-image: url(/assets/497fa6f1644c4309b3d46b129ba9998b.webp);
 }
+
+.logo{
+    width: fit-content;
+    height: fit-content;
+}
+
+#navtext{
+    font-size: 30px; 
+    text-wrap: nowrap;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
