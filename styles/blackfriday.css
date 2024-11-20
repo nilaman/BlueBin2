@@ -7,8 +7,14 @@ body{
     height: fit-content;
 }
 
+@font-face {
+    font-family: 'Courier Prime';
+    src: url(/fonts/Courier_Prime\,IBM_Plex_Sans/);
+}
+
 #navtext{
     font-size: 30px; 
     text-wrap: nowrap;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Courier Prime'
+
 }
