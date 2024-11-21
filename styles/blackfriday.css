@@ -7,10 +7,10 @@ body{
     text-align: center;
 }
 
-.logo{
+/* .logo{
     width: fit-content;
     height: fit-content;
-}
+} */
 
 @font-face {
     font-family: 'Courier Prime';
@@ -23,9 +23,26 @@ body{
     grid-template-columns: 0.5fr 0.5fr 1fr 1fr 1fr 1fr 1fr 1fr;
 } */
 
+.navgrid{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 0.65fr auto;
+}
+
+.navlogo{
+    grid-column: 1;
+    justify-self: start;
+}
+
+.navbuttons{
+    grid-column: 2;
+    justify-items: center;
+    align-content: center;
+}
+
 
 #navtext{
-    font-size: 30px; 
+    font-size: 35px; 
     text-wrap: nowrap;
     font-family: 'Courier Prime'
 }
