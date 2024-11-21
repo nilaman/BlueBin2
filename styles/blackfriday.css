@@ -7,21 +7,13 @@ body{
     text-align: center;
 }
 
-/* .logo{
-    width: fit-content;
-    height: fit-content;
-} */
+
 
 @font-face {
     font-family: 'Courier Prime';
     src: url(/fonts/Courier_Prime/CourierPrime-Regular.ttf)
 }
 
-/* .pagegrid{
-    min-height: 100%;
-    display: grid;
-    grid-template-columns: 0.5fr 0.5fr 1fr 1fr 1fr 1fr 1fr 1fr;
-} */
 
 .navgrid{
     display: grid;
@@ -44,7 +36,8 @@ body{
 #navtext{
     font-size: 35px; 
     text-wrap: nowrap;
-    font-family: 'Courier Prime'
+    font-family: 'Courier Prime';
+    text-align: start;
 }
 
 .btnborder{
