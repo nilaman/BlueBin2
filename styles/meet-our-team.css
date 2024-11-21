@@ -1,0 +1,67 @@
+body{
+    background-image: url(/assets/497fa6f1644c4309b3d46b129ba9998b.webp);
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    margin: 0;
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'Courier Prime';
+    src: url(/fonts/Courier_Prime/CourierPrime-Regular.ttf);
+}
+@font-face{
+    src: url(/fonts/Courier_Prime/CourierPrime-Bold.ttf);
+    font-family: 'Courier Prime-Bold'
+}
+
+.navgrid{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 0.65fr auto;
+}
+
+.navlogo{
+    grid-column: 1;
+    justify-self: start;
+}
+
+.navbuttons{
+    grid-column: 2;
+    justify-items: center;
+    align-content: center;
+}
+
+
+#navtext{
+    font-size: 35px; 
+    text-wrap: nowrap;
+    font-family: 'Courier Prime'
+}
+
+.btnborder{
+    border: none;
+}
+
+#dropdownstyle{
+    font-size: 30px;
+    background-color: whitesmoke; 
+    border: none; 
+}
+
+
+.imageGrid{
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 1;
+}
+.hero{
+    background-image: url(/assets/Screenshot\ 2024-11-21\ at\ 2.41.28\ PM.png);
+    grid-column: span;
+    grid-row: span;
+    margin: 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
