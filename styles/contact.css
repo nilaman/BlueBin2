@@ -6,7 +6,7 @@ body{
     background-image: url(/assets/497fa6f1644c4309b3d46b129ba9998b.webp);
     min-height: 100vh;
     display: grid;
-    grid-template-rows: auto auto auto;
+    grid-template-rows: auto 1fr auto;
     margin: 0;
     text-align: center;
 }
@@ -50,21 +50,40 @@ hr {
     font-family: 'Courier Prime'
 }
 
-input{
-    font-family: 'Courier Prime';
-    justify-self: start;
-    display: flex;
+.dropdown-menu{
+    font-size: 23px;
+    background-color:transparent; 
+    border: none; 
+    font-family: 'Courier Prime'
 }
+
+input {
+    font-family: 'Courier Prime'; 
+    display: flex;
+    justify-self: start; 
+    outline: none; 
+    width: 100%;
+}
+
 
 .bold{
     font-family: 'Courier Prime-Bold';
     text-decoration: underline;
-
+    font-size: 18px;
 }
 .lightbold{
     font-family: 'Courier Prime';
-    font-size: 16px;
+    font-size: 18px;
 }
+.footer{
+    font-size: 20px;
+    align-self: end;
+}
+p{
+    font-family: 'Courier Prime';
+    margin: 0px;
+}
+
 
 
 
