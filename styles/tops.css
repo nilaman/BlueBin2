@@ -1,1 +1,69 @@
-zsz
+body{
+    background-image: url(/assets/497fa6f1644c4309b3d46b129ba9998b.webp);
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    margin: 0;
+    text-align: center;
+}
+
+
+
+@font-face {
+    font-family: 'Courier Prime';
+    src: url(/fonts/Courier_Prime/CourierPrime-Regular.ttf)
+}
+
+
+.navgrid{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 0.65fr auto;
+}
+
+.navlogo{
+    grid-column: 1;
+    justify-self: start;
+}
+
+.navbuttons{
+    grid-column: 2;
+    justify-items: center;
+    align-content: center;
+}
+
+
+#navtext{
+    font-size: 35px; 
+    text-wrap: nowrap;
+    font-family: 'Courier Prime'
+}
+
+.btnborder{
+    border: none;
+}
+
+#dropdownstyle{
+    font-size: 30px;
+    background-color: whitesmoke; 
+    border: none; 
+}
+
+a{
+    font-family: 'Courier Prime'
+}
+
+h1{
+    font-family: 'Courier Prime'
+
+}
+
+p{
+    font-family: 'Courier Prime';
+    margin: 0px;
+}
+
+.footer{
+    font-size: 20px;
+    align-self: end;
+}
