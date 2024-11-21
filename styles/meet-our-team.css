@@ -37,7 +37,8 @@ body{
 #navtext{
     font-size: 35px; 
     text-wrap: nowrap;
-    font-family: 'Courier Prime'
+    font-family: 'Courier Prime';
+    text-align: start;
 }
 
 .btnborder{
@@ -50,12 +51,11 @@ body{
     border: none; 
 }
 
-
 .imageGrid{
     width: 100vw;
     display: grid;
     grid-template-columns: 1;
-    grid-template-rows: 1;
+    grid-template-rows: 3;
 }
 .hero{
     background-image: url(/assets/Screenshot\ 2024-11-21\ at\ 2.41.28\ PM.png);
@@ -65,3 +65,82 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: 10fr;
+  }
+
+  .image-section {
+    grid-row: 1;
+    grid-column: 2;
+    height: 570px;
+    width: 580px;
+  }
+
+  .image-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .content-section {
+    grid-row: 1/10;
+   grid-column: 3/span 5;
+   text-align: left;
+   padding-left: 4rem;
+   padding-top: 2rem;
+  }
+
+  .boldfont{
+    font-family: 'Courier Prime-Bold';
+  }
+
+  .lightfont{
+    font-family: 'Courier Prime';
+
+  }
+
+  hr {
+    height: 2px;
+    background: #000000;
+    opacity: 80%;
+    width: 540px;
+}
+
+  .name-section {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 8px;
+    margin-bottom: 24px;
+  }
+
+  .name-section p {
+    font-size: 20px;
+    margin: 0;
+  }
+
+  .details-section {
+    display: grid;
+    gap: 12px;
+  }
+
+  .details-section p {
+    margin: 0;
+  }
+
+  .details-section span {
+    font-weight: bold;
+  }
+
+  /* Responsive design */
+  /* @media (max-width: 768px) {
+    .card-container {
+      grid-template-columns: 1fr;
+    }
+    
+    .image-section {
+      max-height: 400px;
+    }
+  } */
