@@ -22,11 +22,6 @@ body{
 }
 
 .navlogo{
-    background-image: url(/assets/image_-_Edited__1_-removebg-preview.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 200px;
-    height: auto;
     grid-column: 1;
     justify-self: start;
 }
@@ -37,13 +32,22 @@ body{
     align-content: center;
 }
 
-
-#navtext{
-    font-size: 35px; 
-    text-wrap: nowrap;
-    font-family: 'Courier Prime';
-    text-align: start;
+.navtext.dropdown-toggle::after, 
+.navtext.btn.dropdown-toggle::after {
+    display: none !important;
 }
+
+
+.navtext{
+    font-size: 35px !important; 
+    text-wrap: nowrap !important;
+    font-family: 'Courier Prime' !important;
+    text-align: end !important;
+    margin-right: 5rem !important;
+    border: none !important;
+}
+
+
 
 .btnborder{
     border: none;
@@ -56,7 +60,8 @@ body{
 }
 
 a{
-    font-family: 'Courier Prime'
+    font-family: 'Courier Prime';
+    font-size: 1.5rem;
 }
 
 h1{
@@ -72,4 +77,37 @@ p{
 .footer{
     font-size: 20px;
     align-self: end;
+}
+
+@media screen and (max-width: 1000px){
+    .navbuttons{
+        grid-column: 3;
+        justify-self: end;
+        align-content: center;
+    }
+
+    .navtext{
+        font-size: 35px !important; 
+        text-wrap: nowrap !important;
+        font-family: 'Courier Prime' !important;
+        text-align: end !important;
+        margin-right: 0% !important; 
+        border: none !important;
+    }
+
+}
+
+@media screen and (max-width: 823px){
+       .navbuttons{
+        grid-column: 3;
+        justify-self: end;
+        align-content: center;
+    }
+
+    .navlogo{
+        grid-column: 1;
+        justify-self: start;
+        align-content: center;
+    }
+    
 }
