@@ -295,6 +295,20 @@ hr{
         margin-right: 2rem !important;
         border: none !important;
     }
+
+
+.item1, .item2, .item3 {
+    height: 400px;
+    width: 400px;
+}
+
+.item4, .item5, .item6,
+.item7, .item8, .item9 {
+    height: 600px;
+    width: 400px;
+}
+
+    
 }
 
 @media screen and (max-width: 1000px){
