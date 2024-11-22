@@ -100,7 +100,7 @@ hr{
     grid-column: 2;
     grid-row: 3;
     font-weight: bolder;
-    justify-self: end;
+    justify-self: center;
 }
 
 .item2{
@@ -121,7 +121,7 @@ hr{
     grid-column: 4;
     grid-row: 3;
     font-weight: bolder;
-    justify-self: start;
+    justify-self: center;
 }
 
 .item3{
@@ -142,7 +142,7 @@ hr{
     grid-column: 2;
     grid-row: 5;
     font-weight: bolder;
-    justify-self: start;
+    justify-self: center;
 }
 
 
@@ -170,3 +170,80 @@ hr{
     font-size: 20px;
     align-self: end;
 }
+
+@media screen and (max-width: 768px) {
+    .bagsgrid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+  
+    .section1text {
+      grid-column: 1;
+      grid-row: 1;
+      text-align: center;
+    }
+  
+    .item1, .item2, .item3, .item4 {
+      grid-column: 1;
+      width: 300px;
+      height: 300px;
+      justify-self: center;
+    }
+  
+    .item1 { grid-row: 2; }
+    .item1text { 
+      grid-column: 1; 
+      grid-row: 3; 
+      text-align: center;
+      justify-self: center; /* Add this */
+    }
+  
+    .item2 { grid-row: 4; }
+    .item2text { 
+      grid-column: 1; 
+      grid-row: 5; 
+      text-align: center;
+      justify-self: center; /* Add this */
+    }
+  
+    .item3 { grid-row: 6; }
+    .item3text { 
+      grid-column: 1; 
+      grid-row: 7; 
+      text-align: center;
+      justify-self: center; /* Add this */
+    }
+  
+    .item4 { grid-row: 8; }
+    .item4text { 
+      grid-column: 1; 
+      grid-row: 9; 
+      text-align: center;
+      justify-self: center; /* Add this */
+    }
+  
+    hr {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .bagsgrid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+      width: 100%; /* Ensure full width */
+      padding: 0; /* Remove any padding */
+      margin: 0; /* Remove margins */
+    }
+  
+    .item1, .item2, .item3, .item4 {
+      width: 100%; /* Use full width of container */
+      max-width: 300px; /* Optional: limit maximum width */
+      justify-self: center;
+    }
+  
+    /* Rest of the previous CSS remains the same */
+  }

@@ -262,3 +262,72 @@ hr{
     font-size: 20px;
     align-self: end;
 }
+@media screen and (max-width: 768px) {
+    .bottomsgrid {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+      margin-bottom: 0;
+    }
+  
+    .section1text, .section2text, .section3 {
+      grid-column: 1;
+      text-align: center;
+    }
+  
+    .section1text { grid-row: 1; }
+    .section2text { grid-row: 8; }
+    .section3 { grid-row: 15; }
+  
+    .item1, .item2, .item3, 
+    .item4, .item5, .item6, 
+    .item7, .item8, .item9 {
+      grid-column: 1;
+      width: 300px;
+      height: 300px;
+      justify-self: center;
+      background-size: cover;
+      background-position: center;
+    }
+  
+    .item1text, .item2text, .item3text,
+    .item4text, .item5text, .item6text,
+    .item7text, .item8text, .item9text {
+      grid-column: 1;
+      text-align: center;
+      justify-self: center;
+      width: 300px;
+    }
+  
+    .item1 { grid-row: 2; }
+    .item1text { grid-row: 3; }
+  
+    .item2 { grid-row: 4; }
+    .item2text { grid-row: 5; }
+  
+    .item3 { grid-row: 6; }
+    .item3text { grid-row: 7; }
+  
+    .item4 { grid-row: 9; }
+    .item4text { grid-row: 10; }
+  
+    .item5 { grid-row: 11; }
+    .item5text { grid-row: 12; }
+  
+    .item6 { grid-row: 13; }
+    .item6text { grid-row: 14; }
+  
+    .item7 { grid-row: 16; }
+    .item7text { grid-row: 17; }
+  
+    .item8 { grid-row: 18; }
+    .item8text { grid-row: 19; }
+  
+    .item9 { grid-row: 20; }
+    .item9text { grid-row: 21; }
+  
+    hr {
+      margin-left: 0;
+      margin-right: 0;
+      width: 100%;
+    }
+  }
