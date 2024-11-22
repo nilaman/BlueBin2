@@ -261,3 +261,147 @@ hr{
     font-size: 20px;
     align-self: end;
 }
+@media screen and (max-width: 768px) {
+    .bottomsgrid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        padding: 1rem;
+    }
+
+    .section1text,
+    .section2text,
+    .section3 {
+        grid-column: 1;
+        text-align: center;
+    }
+
+    .item1, .item2, .item3,
+    .item4, .item5, .item6,
+    .item7, .item8, .item9 {
+        grid-column: 1;
+        width: 100%;
+        max-width: 500px;
+        height: 400px;
+    }
+
+    .item1text, .item2text, .item3text,
+    .item4text, .item5text, .item6text,
+    .item7text, .item8text, .item9text {
+        grid-column: 1;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 768px) {
+    .topsgrid {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto repeat(9, auto);
+        gap: 2rem;
+        padding: 1rem;
+    }
+
+    .topstext {
+        grid-column: 1;
+        grid-row: 1;
+        text-align: center;
+    }
+
+    /* Top section */
+    .top1, .top2, .top3 {
+        grid-column: 1;
+        width: 100%;
+        max-width: 500px;
+        height: 400px;
+    }
+
+    .top1 { grid-row: 2; }
+    .top1text { 
+        grid-row: 3;
+        grid-column: 1;
+        text-align: center;
+    }
+
+    .top2 { grid-row: 4; }
+    .top2text { 
+        grid-row: 5;
+        grid-column: 1;
+        text-align: center;
+    }
+
+    .top3 { grid-row: 6; }
+    .top3text { 
+        grid-row: 7;
+        grid-column: 1;
+        text-align: center;
+    }
+
+    .crewtext {
+        grid-row: 8;
+        grid-column: 1;
+        text-align: center;
+    }
+
+    /* Crew section */
+    .crew1, .crew2, .crew3 {
+        grid-column: 1;
+        width: 100%;
+        max-width: 500px;
+        height: 400px;
+    }
+
+    .crew1 { grid-row: 9; }
+    .crew1text { 
+        grid-row: 10;
+        grid-column: 1;
+        text-align: center;
+    }
+
+    .crew2 { grid-row: 11; }
+    .crew2text { 
+        grid-row: 12;
+        grid-column: 1;
+        text-align: center;
+    }
+
+    .crew3 { grid-row: 13; }
+    .crew3text { 
+        grid-row: 14;
+        grid-column: 1;
+        text-align: center;
+    }
+
+    .hoodiestext {
+        grid-row: 15;
+        grid-column: 1;
+        text-align: center;
+    }
+
+    /* Hoodies section */
+    .hoodies1, .hoodies2, .hoodies3 {
+        grid-column: 1;
+        width: 100%;
+        max-width: 500px;
+        height: 400px;
+    }
+
+    .hoodies1 { grid-row: 16; }
+    .hoodies1text { 
+        grid-row: 17;
+        grid-column: 1;
+        text-align: center;
+    }
+
+    .hoodies2 { grid-row: 18; }
+    .hoodies2text { 
+        grid-row: 19;
+        grid-column: 1;
+        text-align: center;
+    }
+
+    .hoodies3 { grid-row: 20; }
+    .hoodies3text { 
+        grid-row: 21;
+        grid-column: 1;
+        text-align: center;
+    }
+}
+
