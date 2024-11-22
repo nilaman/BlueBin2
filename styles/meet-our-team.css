@@ -246,6 +246,15 @@ hr {
   width: 400px;
 }
 
+.footer{
+  font-size: 20px;
+  align-self: end;
+}
+p{
+  font-family: 'Courier Prime';
+  margin: 0px;
+}
+
 @media screen and (max-width: 1834px) {
   .card-container {
     display: grid;
