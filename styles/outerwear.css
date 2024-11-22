@@ -310,12 +310,14 @@ hr{
 
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 990px) {
     .bottomsgrid {
       grid-template-columns: 1fr;
       gap: 1rem;
       margin-bottom: 0;
     }
+
+   
   
     .section1text, .section2text, .section3 {
       grid-column: 1;
@@ -386,12 +388,11 @@ hr{
     }
 
     .navtext{
-        font-size: 35px !important; 
+        font-size: 20px !important; 
         text-wrap: nowrap !important;
         font-family: 'Courier Prime' !important;
         text-align: end !important;
-        margin-right: 0rem !important;
-        margin-left: 0rem !important;
+        margin-right: 0% !important; 
         border: none !important;
     }
 

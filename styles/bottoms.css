@@ -336,6 +336,15 @@ hr{
         align-content: center;
     }
 
+    .navtext{
+        font-size: 20px !important; 
+        text-wrap: nowrap !important;
+        font-family: 'Courier Prime' !important;
+        text-align: end !important;
+        margin-right: 0% !important; 
+        border: none !important;
+    }
+
     .navlogo{
         grid-column: 1;
         justify-self: start;

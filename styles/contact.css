@@ -6,7 +6,7 @@ body{
     background-image: url(/assets/497fa6f1644c4309b3d46b129ba9998b.webp);
     min-height: 100vh;
     display: grid;
-    grid-template-rows: auto 1fr auto;
+    grid-template-rows: auto auto;
     margin: 0;
     text-align: center;
 }
