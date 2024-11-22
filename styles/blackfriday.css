@@ -83,6 +83,17 @@ p{
     align-self: end;
 }
 
+@media screen and (max-width: 1500px){
+    .navtext{
+        font-size: 35px !important;
+        text-wrap: nowrap !important;
+        font-family: 'Courier Prime' !important;
+        text-align: end !important;
+        margin-right: 2rem !important;
+        border: none !important;
+    }
+}
+
 @media screen and (max-width: 1000px){
     .navbuttons{
         grid-column: 3;
