@@ -1,141 +1,139 @@
-body{
-    background-image: url(/assets/497fa6f1644c4309b3d46b129ba9998b.webp);
-    min-height: 100vh;
-    display: grid;
-    grid-template-rows: auto auto auto;
-    margin: 0;
-    text-align: center;
+body {
+  background-image: url(/assets/497fa6f1644c4309b3d46b129ba9998b.webp);
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto auto auto;
+  margin: 0;
+  text-align: center;
 }
 
 @font-face {
-    font-family: 'Courier Prime';
-    src: url(/fonts/Courier_Prime/CourierPrime-Regular.ttf);
+  font-family: "Courier Prime";
+  src: url(/fonts/Courier_Prime/CourierPrime-Regular.ttf);
 }
-@font-face{
-    src: url(/fonts/Courier_Prime/CourierPrime-Bold.ttf);
-    font-family: 'Courier Prime-Bold'
-}
-
-.navgrid{
-    display: grid;
-    grid-template-rows: auto;
-    grid-template-columns: 0.65fr auto;
+@font-face {
+  src: url(/fonts/Courier_Prime/CourierPrime-Bold.ttf);
+  font-family: "Courier Prime-Bold";
 }
 
-.navlogo{
-    grid-column: 1;
-    justify-self: start;
+.navgrid {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 0.65fr auto;
 }
 
-.navbuttons{
-    grid-column: 2;
-    justify-items: center;
-    align-content: center;
+.navlogo {
+  grid-column: 1;
+  justify-self: start;
 }
 
-
-#navtext{
-    font-size: 35px; 
-    text-wrap: nowrap;
-    font-family: 'Courier Prime';
-    text-align: start;
+.navbuttons {
+  grid-column: 2;
+  justify-items: center;
+  align-content: center;
 }
 
-.btnborder{
-    border: none;
+#navtext {
+  font-size: 35px;
+  text-wrap: nowrap;
+  font-family: "Courier Prime";
+  text-align: start;
 }
 
-#dropdownstyle{
-    font-size: 30px;
-    background-color: whitesmoke; 
-    border: none; 
+.btnborder {
+  border: none;
 }
 
-.imageGrid{
-    width: 100vw;
-    display: grid;
-    grid-template-columns: 1;
-    grid-template-rows: 3;
-}
-.hero{
-    background-image: url(/assets/Screenshot\ 2024-11-21\ at\ 2.41.28\ PM.png);
-    grid-column: span;
-    grid-row: span;
-    margin: 0%;
-    background-repeat: no-repeat;
-    background-size: cover;
+#dropdownstyle {
+  font-size: 30px;
+  background-color: whitesmoke;
+  border: none;
 }
 
-
-  .card-container {
-    display: grid;
-    grid-template-columns: repeat(10,1fr);
-    grid-template-rows: 10fr;
-  }
-
-  .image-section {
-    grid-row: 1;
-    grid-column: 2;
-    height: 570px;
-    width: 580px;
-  }
-
-  .image-section img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-
-  .content-section {
-    grid-row: 1/10;
-   grid-column: 3/span 5;
-   text-align: left;
-   padding-left: 4rem;
-   padding-top: 2rem;
-  }
-
-  .boldfont{
-    font-family: 'Courier Prime-Bold';
-  }
-
-  .lightfont{
-    font-family: 'Courier Prime';
-
-  }
-
-  hr {
-    height: 2px;
-    background: #000000;
-    opacity: 80%;
-    width: 540px;
+.imageGrid {
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: 3;
+}
+.hero {
+  background-image: url(/assets/Screenshot\ 2024-11-21\ at\ 2.41.28\ PM.png);
+  grid-column: span;
+  grid-row: span;
+  margin: 0%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 542px;
 }
 
-  .name-section {
-    border-bottom: 1px solid #eee;
-    padding-bottom: 8px;
-    margin-bottom: 24px;
-  }
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: 10fr;
+}
 
-  .name-section p {
-    font-size: 20px;
-    margin: 0;
-  }
+.image-section {
+  grid-row: 1;
+  grid-column: 2;
+  height: 570px;
+  width: 580px;
+}
 
-  .details-section {
-    display: grid;
-    gap: 12px;
-  }
+.image-section img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
-  .details-section p {
-    margin: 0;
-  }
+.content-section {
+  grid-row: 1/10;
+  grid-column: 3 / span 5;
+  text-align: left;
+  padding-left: 4rem;
+  padding-top: 2rem;
+}
 
-  .details-section span {
-    font-weight: bold;
-  }
+.boldfont {
+  font-family: "Courier Prime-Bold";
+}
 
-  /* Responsive design */
-  /* @media (max-width: 768px) {
+.lightfont {
+  font-family: "Courier Prime";
+}
+
+hr {
+  height: 2px;
+  background: #000000;
+  opacity: 80%;
+  width: 540px;
+}
+
+.name-section {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 8px;
+  margin-bottom: 24px;
+}
+
+.name-section p {
+  font-size: 20px;
+  margin: 0;
+}
+
+.details-section {
+  display: grid;
+  gap: 12px;
+}
+
+.details-section p {
+  margin: 0;
+}
+
+.details-section span {
+  font-weight: bold;
+}
+
+/* Responsive design */
+/* @media (max-width: 768px) {
     .card-container {
       grid-template-columns: 1fr;
     }
@@ -144,3 +142,195 @@ body{
       max-height: 400px;
     }
   } */
+/* tobasco */
+
+.tobaco-section {
+  grid-row: 2;
+  grid-column: 9;
+  height: 570px;
+  width: 580px;
+  margin-top: 3rem;
+}
+
+.tobaco-section img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.tobaco-content-section {
+  grid-row: 2;
+  grid-column: 4;
+  text-align: right;
+  padding-left: 4rem;
+  padding-top: 5rem;
+}
+.tabaco-name-section {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 8px;
+  margin-bottom: 24px;
+}
+.tobaco-details-section {
+  display: grid;
+  gap: 12px;
+}
+.newhr {
+  height: 2px;
+  background: #000000;
+  opacity: 80%;
+  width: 540px;
+}
+.favfind {
+  grid-row: 1;
+  grid-column: 6;
+}
+.favfind2 {
+  grid-row: 1;
+  grid-column: 9;
+  object-fit: cover;
+  padding-top: 4rem;
+}
+
+.favfind4 {
+  grid-row: 2;
+}
+.favfind3 {
+  grid-row: 2;
+  grid-column: 2;
+  object-fit: cover;
+  padding-top: 7rem;
+}
+
+.favfind6 {
+  grid-row: 3;
+  grid-column: 6;
+}
+.favfind5 {
+  grid-row: 3;
+  grid-column: 9;
+  object-fit: cover;
+  padding-top: 8rem;
+}
+
+.jason-section {
+  grid-row: 3;
+  grid-column: 2;
+  height: 570px;
+  width: 580px;
+  margin-top: 3rem;
+}
+.jason-section img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.jason-content-section {
+  grid-row: 3;
+  grid-column: 4;
+  text-align: left;
+  padding-left: 4rem;
+  padding-top: 5rem;
+}
+.jason-name-section {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 8px;
+  margin-bottom: 24px;
+}
+.jason-details-section {
+  display: grid;
+  gap: 12px;
+}
+
+.favphoto {
+  height: 400px;
+  width: 400px;
+}
+
+@media screen and (max-width: 1834px) {
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 10fr;
+    margin-left: 5rem;
+  }
+  .image-section {
+    grid-row: 1;
+    grid-column: 1;
+    height: 470px;
+    width: 480px;
+    object-fit: cover;
+    justify-self: end;
+  }
+  .content-section {
+    grid-row: 1/10;
+    grid-column: 2 / span 5;
+    text-align: left;
+    padding-left: 4rem;
+    padding-top: 2rem;
+  }
+  .tobaco-section {
+    grid-row: 2;
+    grid-column: 1;
+    height: 470px;
+    width: 480px;
+    object-fit: cover;
+    justify-self: end;
+  }
+  .jason-section {
+    grid-row: 3;
+    grid-column: 1;
+    height: 470px;
+    width: 480px;
+    object-fit: cover;
+  }
+  .jason-content-section {
+    grid-row: 3;
+    grid-column: 2;
+    text-align: left;
+    padding-left: 4rem;
+    padding-top: 5rem;
+  }
+  .tobaco-content-section {
+    grid-row: 2;
+    grid-column: 2;
+    text-align: left;
+    padding-left: 4rem;
+    padding-top: 5rem;
+  }
+  .favfindtext{
+    grid-row: 4;
+    grid-column: 1;
+  }
+  .favfind {
+    grid-row: 4;
+    grid-column: 2;
+  }
+  .favfind2 {
+    grid-row: 4;
+    grid-column: 2;
+    object-fit: cover;
+    padding-top: 4rem;
+  }
+
+  .favfind4 {
+    grid-row: 5;
+  }
+  .favfind3 {
+    grid-row: 5;
+    grid-column: 1 ;
+    object-fit: cover;
+    padding-top: 4rem;
+  }
+
+  .favfind6 {
+    grid-row: 5;
+    grid-column: 2;
+  }
+  .favfind5 {
+    grid-row: 5;
+    grid-column: 2;
+    object-fit: cover;
+    padding-top: 4rem;
+  }
+
+}
