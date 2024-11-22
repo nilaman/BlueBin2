@@ -2,20 +2,164 @@ body{
     background-image: url(/assets/497fa6f1644c4309b3d46b129ba9998b.webp)
 }
 
-.imageGrid{
-    width: 100%;
-    display: grid;
-    grid-template-columns:  repeat(13, 1fr);
-    grid-template-rows: repeat(8, 1fr);
-    height: 100vh;
+
+
+@font-face {
+    font-family: 'Courier Prime';
+    src: url(/fonts/Courier_Prime/CourierPrime-Regular.ttf)
 }
-.logogrid{
-    grid-column: 7;
+
+@font-face {
+    font-family: 'Courier Prime Bold';
+    src: url(/fonts/Courier_Prime/CourierPrime-Bold.ttf)
+}
+
+a{
+    font-family: 'Courier Prime'
+}
+
+h1{
+    font-family: 'Courier Prime Bold'
+
+}
+
+h2{
+    font-family: 'Courier Prime'
+
+}
+
+p{
+    font-family: 'Courier Prime';
+    margin: 0px;
+}
+
+.pageGrid{
+    height: 100%;
+    display: grid;
+    grid-template-columns:  repeat(5, 1fr);
+    grid-template-rows: auto 1fr 1fr;
+}
+
+.bluebinlogo{
+    grid-column: 3;
     grid-row: 1;
+}
+
+.logosize{
+    width: 800px;
+    height: auto;
+}
+
+.shopvintage{
+    grid-column: 3;
+    grid-row: 2;
+    justify-self: center;
+    text-align: center;
     
 }
-.bluebinlogo{
-    width: 1200px;
-    height: 300px;
 
+.viewinv{
+    grid-column: 3;
+    grid-row: 3;
+    justify-self: center;
+    text-align: center;
+}
+
+.address1{
+    grid-column: 4 / span 5;
+    grid-row: 3;
+    justify-self: start;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.address2{
+    grid-column: 1 / span 2;
+    grid-row: 3;
+    text-align: center;
+    justify-self: end;
+    margin-top: 5rem;
+}
+
+/* .globe{
+    grid-column: 3;
+    grid-row: 4;
+    justify-self: center;
+} */
+
+@media screen and (max-width: 1500px) {
+
+    .pageGrid{
+        height: 100%;
+        display: grid;
+        grid-template-columns:  repeat(5, 1fr);
+        grid-template-rows: auto auto 1fr;
+    }
+
+    .viewinv{
+        grid-column: 3;
+        grid-row: 3;
+        justify-self: center;
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    .address1{
+        grid-column: 4 / span 5;
+        grid-row: 3;
+        justify-self: start;
+        text-align: center;
+        margin-top: 8rem;
+    }
+    
+    .address2{
+        grid-column: 1 / span 2;
+        grid-row: 3;
+        text-align: center;
+        justify-self: end;
+        margin-top: 8rem;
+    }
+
+    .logosize{
+        width: 500px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .pageGrid{
+        height: 100%;
+        display: grid;
+        grid-template-columns:  repeat(5, 1fr);
+        grid-template-rows: auto auto auto auto auto;
+    }
+
+    .viewinv{
+        grid-column: 3;
+        grid-row: 3;
+        justify-self: center;
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    .address1{
+        grid-column: 3;
+        grid-row: 4;
+        justify-self: center;
+        text-align: center;
+        margin-top: 2rem;
+    }
+    
+    .address2{
+        grid-column: 3;
+        grid-row: 5;
+        text-align: center;
+        justify-self: center;
+        margin-top: 2rem;
+    }
+
+    .logosize{
+        width: 425px;
+        height: auto;
+    }
 }
