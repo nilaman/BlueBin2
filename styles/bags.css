@@ -183,6 +183,7 @@ hr{
 }
 .boldfont {
     font-family: "Courier Prime-Bold";
+    font-size: 50px;
   }
   
   .lightfont {
@@ -192,6 +193,17 @@ hr{
 .footer{
     font-size: 20px;
     align-self: end;
+}
+
+@media screen and (max-width: 1500px){
+    .navtext{
+        font-size: 35px !important; 
+        text-wrap: nowrap !important;
+        font-family: 'Courier Prime' !important;
+        text-align: end !important;
+        margin-right: 2rem !important;
+        border: none !important;
+    }
 }
 
 @media screen and (max-width: 1000px){
