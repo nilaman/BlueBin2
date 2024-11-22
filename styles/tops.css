@@ -63,6 +63,105 @@ p{
     margin: 0px;
 }
 
+.topsgrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr auto auto 1fr auto 1fr auto;
+    gap: 1rem;
+}
+
+.topstext{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+hr{
+    height: 2px;
+    background: #000000;
+    opacity: 80%;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.top1{
+    background-image: url(/assets/image.png);
+    grid-column: 1;
+    grid-row: 2;
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    justify-self: center;
+}
+
+.top1text{
+    grid-column: 1;
+    grid-row: 3;
+    font-weight: bolder;
+}
+
+.top2{
+    background-image: url(/assets/Screenshot\ 2024-11-21\ 151818.png);
+    grid-column: 2;
+    grid-row: 2;
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-self: center;
+    background-position: 50%;
+}
+
+
+.top2text{
+    grid-column: 2;
+    grid-row: 3;
+    font-weight: bolder;
+}
+
+.top3{
+    background-image: url(/assets/harleytoons.png);
+    grid-column: 3;
+    grid-row: 2;
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-self: center;
+    background-position: 50%;
+}
+
+
+.top3text{
+    grid-column: 3;
+    grid-row: 3;
+    font-weight: bolder;
+}
+
+.crewtext{
+    grid-row: 4;
+    grid-column: 2;
+}
+
+.crew1{
+    background-image: url(/assets/sjshrk.png);
+    grid-column: 1;
+    grid-row: 5;
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    justify-self: center;
+}
+
+.crew1text{
+    grid-column: 1;
+    grid-row: 6;
+    font-weight: bolder;
+}
+
 .footer{
     font-size: 20px;
     align-self: end;
