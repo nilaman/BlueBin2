@@ -295,6 +295,14 @@ hr{
         margin-right: 2rem !important;
         border: none !important;
     }
+
+        .top1, .top2, .top3, 
+        .crew1, .crew2, .crew3, 
+        .hoodies1, .hoodies2, .hoodies3 {
+            height: 400px;
+            width: 400px;
+        }
+
 }
 
 @media screen and (max-width: 990px) {
