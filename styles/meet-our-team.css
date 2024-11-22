@@ -80,7 +80,19 @@ a{
   background-size: cover;
   height: 542px;
 }
-
+@media screen and (max-width: 740px) {
+  .hero {
+    height: 500px; /* or any other appropriate height for mobile */
+    background-position: center; /* ensures the image stays centered */
+  }
+}
+@media screen and (max-width: 540px) {
+  .hero {
+    height: 500px; /* or whatever height works best for mobile */
+    background-position: center;
+    background-size: cover;
+  }
+}
 .card-container {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
@@ -422,7 +434,7 @@ p{
 
 @media screen and (max-width: 1195px) {
   .navtext{
-    font-size: 29px !important; 
+    font-size: 24px !important; 
     text-wrap: nowrap !important;
     font-family: 'Courier Prime' !important;
     text-align: end !important;
@@ -437,7 +449,7 @@ p{
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1136px) {
   .card-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -534,7 +546,7 @@ p{
   }
 }
  
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 540px) {
     .card-container {
       display: grid;
       grid-template-columns: 1fr;
