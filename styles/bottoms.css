@@ -1,0 +1,263 @@
+body{
+    background-image: url(/assets/497fa6f1644c4309b3d46b129ba9998b.webp);
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    margin: 0;
+    text-align: center;
+}
+
+
+
+@font-face {
+    font-family: 'Courier Prime';
+    src: url(/fonts/Courier_Prime/CourierPrime-Regular.ttf)
+}
+
+
+.navgrid{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 0.65fr auto;
+}
+
+.navlogo{
+    grid-column: 1;
+    justify-self: start;
+}
+
+.navbuttons{
+    grid-column: 2;
+    justify-items: center;
+    align-content: center;
+}
+
+
+#navtext{
+    font-size: 35px; 
+    text-wrap: nowrap;
+    font-family: 'Courier Prime'
+}
+
+.btnborder{
+    border: none;
+}
+
+#dropdownstyle{
+    font-size: 30px;
+    background-color: whitesmoke; 
+    border: none; 
+}
+
+a{
+    font-family: 'Courier Prime'
+}
+
+h1{
+    font-family: 'Courier Prime'
+
+}
+
+p{
+    font-family: 'Courier Prime';
+    margin: 0px;
+}
+
+.bottomsgrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto;
+    gap: 1rem;
+}
+
+.section1text{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+hr{
+    height: 2px;
+    background: #000000;
+    opacity: 80%;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.item1{
+    background-image: url(/assets/blueanchorjorts.png);
+    grid-column: 1;
+    grid-row: 2;
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    justify-self: center;
+}
+
+.item1text{
+    grid-column: 1;
+    grid-row: 3;
+    font-weight: bolder;
+}
+
+.item2{
+    background-image: url(/assets/Screenshot\ 2024-11-22\ 000021.png);
+    grid-column: 2;
+    grid-row: 2;
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-self: center;
+    background-position: 50%;
+}
+
+
+.item2text{
+    grid-column: 2;
+    grid-row: 3;
+    font-weight: bolder;
+}
+
+.item3{
+    background-image: url(/assets/leepipesjorts.png);
+    grid-column: 3;
+    grid-row: 2;
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-self: center;
+    background-position: 50%;
+}
+
+
+.item3text{
+    grid-column: 3;
+    grid-row: 3;
+    font-weight: bolder;
+}
+
+.section2text{
+    grid-row: 4;
+    grid-column: 2;
+}
+
+.item4{
+    background-image: url(/assets/religionjeans.png);
+    grid-column: 1;
+    grid-row: 5;
+    width: 500px;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    justify-self: center;
+}
+
+.item4text{
+    grid-column: 1;
+    grid-row: 6;
+    font-weight: bolder;
+}
+
+.item5{
+    background-image: url(/assets/jncoskellyjeans.png);
+    grid-column: 2;
+    grid-row: 5;
+    width: 500px;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    justify-self: center;
+}
+
+.item5text{
+    grid-column: 2;
+    grid-row: 6;
+    font-weight: bolder;
+}
+
+.item6{
+    background-image: url(/assets/virginmaryjeans.png);
+    grid-column: 3;
+    grid-row: 5;
+    width: 500px;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    justify-self: center;
+}
+
+.item6text{
+    grid-column: 3;
+    grid-row: 6;
+    font-weight: bolder;
+}
+
+.section3{
+    grid-row: 7;
+    grid-column: 2;
+}
+
+.item7{
+    background-image: url(/assets/camocargo.png);
+    grid-column: 1;
+    grid-row: 8;
+    width: 500px;
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    justify-self: center;
+}
+
+.item7text{
+    grid-column: 1;
+    grid-row: 9;
+    font-weight: bolder;
+}
+
+.item8{
+    background-image: url(/assets/whitecargo.png);
+    grid-column: 2;
+    grid-row: 8;
+    width: 500px;
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    justify-self: center;
+}
+
+.item8text{
+    grid-column: 2;
+    grid-row: 9;
+    font-weight: bolder;
+}
+
+.item9{
+    background-image: url(/assets/randomcargo.png);
+    grid-column: 3;
+    grid-row: 8;
+    width: 500px;
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    justify-self: center;
+}
+
+.item9text{
+    grid-column: 3;
+    grid-row: 9;
+    font-weight: bolder;
+}
+
+.footer{
+    font-size: 20px;
+    align-self: end;
+}
