@@ -22,7 +22,7 @@ body{
 .navgrid{
     display: grid;
     grid-template-rows: auto;
-    grid-template-columns: 0.65fr auto;
+    grid-template-columns: 1fr auto 1fr;
 }
 
 .navlogo{
@@ -36,12 +36,22 @@ body{
     align-content: center;
 }
 
-
-#navtext{
-    font-size: 35px; 
-    text-wrap: nowrap;
-    font-family: 'Courier Prime'
+.navtext.dropdown-toggle::after, 
+.navtext.btn.dropdown-toggle::after {
+    display: none !important;
 }
+
+
+.navtext{
+    font-size: 35px !important; 
+    text-wrap: nowrap !important;
+    font-family: 'Courier Prime' !important;
+    text-align: end !important;
+    margin-right: 5rem !important;
+    border: none !important;
+}
+
+
 
 .btnborder{
     border: none;
@@ -54,7 +64,8 @@ body{
 }
 
 a{
-    font-family: 'Courier Prime'
+    font-family: 'Courier Prime';
+    font-size: 1.5rem;
 }
 
 h1{
@@ -274,11 +285,27 @@ hr{
     font-family: "Courier Prime";
   }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 990px) {
     .bottomsgrid {
         grid-template-columns: 1fr;
         gap: 2rem;
         padding: 1rem;
+    }
+
+    .navbuttons{
+        grid-column: 3;
+        justify-items: end;
+        align-content: center;
+    }
+
+    
+    .navtext{
+        font-size: 35px !important; 
+        text-wrap: nowrap !important;
+        font-family: 'Courier Prime' !important;
+        text-align: end !important;
+        margin-right: 0rem !important;
+        border: none !important;
     }
 
     .section1text,
@@ -303,8 +330,7 @@ hr{
         grid-column: 1;
         text-align: center;
     }
-}
-@media screen and (max-width: 768px) {
+
     .topsgrid {
         grid-template-columns: 1fr;
         grid-template-rows: auto repeat(9, auto);
