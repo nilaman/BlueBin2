@@ -288,6 +288,27 @@ hr{
     grid-column: 2;
     grid-row: 10;
 }
+
+@media screen and (max-width: 1500px){
+    .navtext{
+        font-size: 35px !important;
+        text-wrap: nowrap !important;
+        font-family: 'Courier Prime' !important;
+        text-align: end !important;
+        margin-right: 1rem !important;
+        border: none !important;
+    }
+    .item1, .item2, .item3, 
+    .item4, .item5, .item6, 
+    .item7, .item8, .item9 {
+        height: 400px;
+        width: 400px;
+    }
+}
+
+
+
+
 @media screen and (max-width: 768px) {
     .bottomsgrid {
       grid-template-columns: 1fr;

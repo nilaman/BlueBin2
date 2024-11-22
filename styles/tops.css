@@ -285,6 +285,17 @@ hr{
     font-family: "Courier Prime";
   }
 
+  @media screen and (max-width: 1500px){
+    .navtext{
+        font-size: 35px !important;
+        text-wrap: nowrap !important;
+        font-family: 'Courier Prime' !important;
+        text-align: end !important;
+        margin-right: 2rem !important;
+        border: none !important;
+    }
+}
+
 @media screen and (max-width: 990px) {
     .bottomsgrid {
         grid-template-columns: 1fr;
