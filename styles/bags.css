@@ -179,10 +179,11 @@ hr{
     grid-column: 4;
     grid-row: 5;
     font-weight: bolder;
-    justify-self: start;
+    justify-self: center;
 }
 .boldfont {
     font-family: "Courier Prime-Bold";
+    font-size: 50px;
   }
   
   .lightfont {
