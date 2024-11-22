@@ -12,46 +12,53 @@
 </head>
 <body>
 
-    <div class="navcontainer">
-        <div class="row">
-            <div class="col-5 d-flex justify-content-around">
-                <!-- <button id="navtext" type="button" class="btn" >Stock</button> -->
-                <div class="dropdown" style=" display: flex; align-items: center;">
-                  <button id="navtext" class="btn dropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Stock >
+    <div class="navgrid">
+
+        <div class="navlogo">
+          <img class="img-fluid" src="/assets/image_-_Edited__1_-removebg-preview.png" alt="">
+          </div>
+  
+        <div class="navbuttons">
+          <nav class="navbar navbar-expand-lg w-100">
+          <div class="container-fluid d-flex justify-content-center">
+        
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            
+        
+            <div class="collapse navbar-collapse" style="display: flex; justify-content: space-between;" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                  <div class="dropdown" style=" display: flex; align-items: center;">
+                  <button id="navtext" class="btn dropdown" type="button" data-bs-toggle="dropdown" style="border: none; margin-right: 5rem;" aria-expanded="false">
+                    Stock > 
                   </button>
-                  <ul class="dropdown-menu">
+                  <ul id="dropdownstyle" class="dropdown-menu">
                     <li><a class="dropdown-item" href="#">Tops</a></li>
                     <li><a class="dropdown-item" href="#">Bottoms</a></li>
                     <li><a class="dropdown-item" href="#">Outerwear</a></li>
-                    <li><a class="dropdown-item" href="#">Accessories</a></li>
+                    <li><a class="dropdown-item" href="#">Accessories</a></li> 
                   </ul>
                 </div>
-                <!-- <button id="navtext" type="button" class="btn">Vendors</button> -->
                 <div class="dropdown" style=" display: flex; align-items: center;">
-                  <button id="navtext" class="btn dropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Vendors >
+                  <button id="navtext" class="btn dropdown" type="button" data-bs-toggle="dropdown" style="border: none; margin-right: 5rem;" aria-expanded="false">
+                    Vendors > 
                   </button>
-                  <ul class="dropdown-menu" style="border-radius: 0%;">
+                  <ul id="dropdownstyle" class="dropdown-menu">
                     <li><a class="dropdown-item" href="#">@yungtabasco</a></li>
                     <li><a class="dropdown-item" href="#">@richthrifts</a></li>
                     <li><a class="dropdown-item" href="#">@mylvtg</a></li>
                     <li><a class="dropdown-item" href="#">@whitepicketfence.us</a></li>
                   </ul>
                 </div>
+                <button id="navtext" class="btn" style="border: none; margin-right: 5rem;">Meet Our Team </button>
+                <button id="navtext" class="btn">Contact</button>
+              </div>
             </div>
-            <div class="col-2 d-flex justify-content-around">
-                <img class="img-fluid" src="/assets/image_-_Edited__1_-removebg-preview.png" alt="">
-            </div>
-            <div class="col-5 d-flex justify-content-around">
-                <button id="navtext" type="button" class="btn">Meet Our Team</button>
-                <button id="navtext" type="button" class="btn">Contact</button>
-            </div>
+          </div>
+        </nav>
         </div>
-
     </div>
-    <br>
-    <br>
     <h2 class="font text-center">Contact Us</h2>
     <br>
     <div class="container">

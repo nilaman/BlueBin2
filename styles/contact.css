@@ -44,17 +44,38 @@ hr {
     font-family: 'Courier Prime-Bold'
 }
 
+.navgrid{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 0.65fr auto;
+}
+
+.navlogo{
+    grid-column: 1;
+    justify-self: start;
+}
+
+.navbuttons{
+    grid-column: 2;
+    justify-items: center;
+    align-content: center;
+}
+
+
 #navtext{
-    font-size: 30px; 
+    font-size: 35px; 
     text-wrap: nowrap;
     font-family: 'Courier Prime'
 }
 
-.dropdown-menu{
-    font-size: 23px;
-    background-color:transparent; 
+.btnborder{
+    border: none;
+}
+
+#dropdownstyle{
+    font-size: 30px;
+    background-color: whitesmoke; 
     border: none; 
-    font-family: 'Courier Prime'
 }
 
 input {
