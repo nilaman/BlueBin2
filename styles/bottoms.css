@@ -403,6 +403,15 @@ hr{
   
     .item9 { grid-row: 20; grid-column: 1; }
     .item9text { grid-row: 21; grid-column: 1; }
+
+
+        .footer{
+            font-size: 16px;
+            align-self: end;
+            grid-column: 1;
+            grid-row: 22;
+        }
+    
   
     /* Rest of the previous CSS remains the same */
   }

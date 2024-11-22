@@ -476,3 +476,12 @@ hr{
     }
 }
 
+@media screen and (max-width: 768px) {
+    .footer{
+        font-size: 16px;
+        align-self: end;
+        grid-column: 1;
+        grid-row: 22;
+    }
+}
+

@@ -570,6 +570,15 @@ p{
     border: none !important;
 }
 }
+
+@media screen and (max-width: 768px) {
+  .footer{
+      font-size: 16px;
+      align-self: end;
+      grid-column: 2;
+      grid-row: 22;
+  }
+}
  
   @media screen and (max-width: 540px) {
     .card-container {
@@ -612,6 +621,13 @@ p{
     .newhr {
       width: 100%;
     }
+
+    .footer{
+      font-size: 15px;
+      align-self: end;
+      grid-column: 2;
+      grid-row: 22;
+  }
   }
 
 

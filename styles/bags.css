@@ -323,7 +323,7 @@ hr{
     }
 
     .footer{
-        font-size: 12px;
+        font-size: 16px;
         align-self: end;
         grid-column: 1;
         grid-row: 22;
