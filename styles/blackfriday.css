@@ -105,6 +105,12 @@ p{
         align-content: center;
     }
 
+    .boldfont {
+        font-family: "Courier Prime-Bold";
+        font-size: 30px;
+      }
+    
+
     
 
     .navtext{
