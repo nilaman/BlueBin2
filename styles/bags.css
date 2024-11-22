@@ -13,6 +13,11 @@ body{
     font-family: 'Courier Prime';
     src: url(/fonts/Courier_Prime/CourierPrime-Regular.ttf)
 }
+@font-face {
+    font-family: 'Courier Prime-Bold';
+    src: url(/fonts/Courier_Prime/CourierPrime-Bold.ttf)
+}
+
 
 
 .navgrid{
@@ -165,6 +170,13 @@ hr{
     font-weight: bolder;
     justify-self: start;
 }
+.boldfont {
+    font-family: "Courier Prime-Bold";
+  }
+  
+  .lightfont {
+    font-family: "Courier Prime";
+  }
 
 .footer{
     font-size: 20px;

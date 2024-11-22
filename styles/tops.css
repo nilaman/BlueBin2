@@ -13,6 +13,10 @@ body{
     font-family: 'Courier Prime';
     src: url(/fonts/Courier_Prime/CourierPrime-Regular.ttf)
 }
+@font-face {
+    font-family: 'Courier Prime-Bold';
+    src: url(/fonts/Courier_Prime/CourierPrime-Bold.ttf)
+}
 
 
 .navgrid{
@@ -261,6 +265,15 @@ hr{
     font-size: 20px;
     align-self: end;
 }
+
+.boldfont {
+    font-family: "Courier Prime-Bold";
+  }
+  
+  .lightfont {
+    font-family: "Courier Prime";
+  }
+
 @media screen and (max-width: 768px) {
     .bottomsgrid {
         grid-template-columns: 1fr;
