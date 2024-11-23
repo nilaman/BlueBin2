@@ -1,3 +1,10 @@
+Nolan Parker  Andrie Amor
+
+Business Redeisgn
+
+11/22/24
+
+Created a website that was not yet designed (isaiah approved it) for a clothing store and added pages with different clothing items and a page for a contact and a page for learning more about the certain vendors.  After Juan's peer review, we fixed the footer on the meet our team page by taking away the padding.  The nav was intentional like that and we made sure mobile was as near perfect to the figma.
 
 
 Peer Reviewed By: Juan Heredia
