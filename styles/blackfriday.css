@@ -87,6 +87,8 @@ p{
     align-self: end;
 }
 
+
+
 @media screen and (max-width: 1500px){
     .navtext{
         font-size: 35px !important;
@@ -155,6 +157,7 @@ p{
         font-size: 16px;
         align-self: end;
         grid-column: 1;
-        grid-row: 22;
+        grid-row: 4;
     }
+    
 }
